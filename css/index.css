@@ -38,7 +38,9 @@ body{
  
 }
 .active{
-	color:red;
+	color:#00F2DB;
+	/*color:purple;*/
+
  }
  .left>ul>li.active{
 	background:rgba(0,0,0,0.4);
