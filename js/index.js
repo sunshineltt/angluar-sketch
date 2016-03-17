@@ -89,7 +89,7 @@ sketch.controller('sketchController', ['$scope', function($scope){
 				ctx.stroke(); 
 	 		}
 	 	},
-	 	erase:function(e){
+	/* 	erase:function(e){
 			canvas.onmousemove=function(ev){
 				clearcanvas();
 	 			if(current){
@@ -100,7 +100,7 @@ sketch.controller('sketchController', ['$scope', function($scope){
 				ctx.lineTo(ev.offsetX,ev.offsetY);
 				ctx.stroke(); 
 	 		}
-	 	},
+	 	},*/
 
 	 	arc:function(e){
 			canvas.onmousemove=function(ev){
@@ -137,7 +137,6 @@ sketch.controller('sketchController', ['$scope', function($scope){
 	 	},
 	 	erase:function(e){
 			canvas.onmousemove=function(ev){
-			 
 	 			var w=20;
 				var h=20;
  	   			ctx.clearRect(ev.offsetX,ev.offsetY,w,h)
